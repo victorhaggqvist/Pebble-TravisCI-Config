@@ -1,6 +1,11 @@
 # Test
 language: python
 
+# This can be removed when actualy testing a real app
+python:
+  - "2.6"
+  - "2.7"
+
 script:
 - pebble-dev/${PEBBLE_SDK}/bin/pebble build
 

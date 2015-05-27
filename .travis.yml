@@ -17,6 +17,7 @@ before_install:
 - tar -zxf arm-cs-tools-ubuntu-universal.tar.gz -C pebble-dev/${PEBBLE_SDK}
 
 install:
+- pip install --upgrade pip # just to future proof, since travis seem to hang behind
 - pip install --install-option="--no-cython-compile" cython
 - "pip install -r pebble-dev/${PEBBLE_SDK}/requirements.txt"
 

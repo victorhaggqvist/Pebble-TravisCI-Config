@@ -1,4 +1,4 @@
-# Test
+# source https://github.com/victorhaggqvist/Pebble-TravisCI-Config
 language: python
 
 # 2.7 is the only verison officially supported
@@ -15,6 +15,7 @@ before_install:
 - tar -zxf PebbleSDK.tar.gz -C pebble-dev
 - tar -zxf arm-cs-tools-ubuntu-universal.tar.gz -C pebble-dev/${PEBBLE_SDK}
 
+# notice we don't create a virtualenv, travis to that be default already
 install:
 - pip install --upgrade pip # just to future proof, since travis seem to hang behind
 - pip install --install-option="--no-cython-compile" cython

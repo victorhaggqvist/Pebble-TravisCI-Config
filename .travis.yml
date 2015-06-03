@@ -23,4 +23,4 @@ install:
 
 env:
   global:
-  - PEBBLE_SDK=PebbleSDK-3.0-beta12
+  - PEBBLE_SDK=PebbleSDK-3.0

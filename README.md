@@ -1,5 +1,5 @@
 # TravisCI config for building Pebble apps
-![](https://img.shields.io/badge/building-SDK3.0--beta12-green.svg)
+![](https://img.shields.io/badge/SDK-3.0-green.svg)
 [![Build Status](https://travis-ci.org/victorhaggqvist/Pebble-TravisCI-Config.svg?branch=master)](https://travis-ci.org/victorhaggqvist/Pebble-TravisCI-Config)
 
 See tags for old config to different SDK versions.

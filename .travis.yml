@@ -20,6 +20,7 @@ install:
 - pip install --upgrade pip # just to future proof, since travis seem to hang behind
 - pip install --install-option="--no-cython-compile" cython
 - "pip install -r pebble-dev/${PEBBLE_SDK}/requirements.txt"
+- touch pebble-dev/NO_TRACKING
 
 env:
   global:
